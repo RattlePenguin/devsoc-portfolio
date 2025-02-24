@@ -1,0 +1,127 @@
+.travels {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.travels__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.travels__title {
+    font-size: var(--size-2xl);
+    color: var(--clr-light);
+}
+
+.travels__description {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 60ch;
+    font-size: var(--size-sm);
+    color: var(--clr-slate600);
+    margin-bottom: 2rem;
+}
+
+.travels__hr {
+    border-color: transparent;
+}
+
+/* xs */
+@media (min-width: 475px) {
+    .travels {
+        gap: 1.5rem;
+    }
+
+    .travels__content {
+        gap: 1.5rem;
+    }
+
+    .travels__title {
+        font-size: var(--size-3xl);
+    }
+
+    .travels__description {
+        font-size: var(--size-base);
+    }
+
+    .travels__subtitle {
+        font-size: var(--size-base);
+    }
+
+    .travels__list {
+        font-size: var(--size-base);
+    }
+}
+
+/* sm */
+@media (min-width: 640px) {
+    .travels__img-wrapper {
+        margin: 0 auto;
+    }
+
+    .travels__img {
+        width: 28.6875rem;
+    }
+}
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+@media (min-width: 1024px) {
+    .travels {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .travels__title {
+        font-size: var(--size-4xl);
+    }
+
+    .travels__description {
+        font-size: var(--size-lg);
+    }
+
+    .travels__subtitle {
+        font-size: var(--size-lg);
+    }
+
+    .travels__list {
+        font-size: var(--size-lg);
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .travels__content {
+        gap: 2rem;
+    }
+
+    .travels__title {
+        font-size: var(--size-5xl);
+    }
+
+    .travels__description {
+        font-size: var(--size-xl);
+    }
+
+    .travels__subtitle {
+        font-size: var(--size-xl);
+    }
+
+    .travels__list {
+        font-size: var(--size-xl);
+    }
+
+    .travels__img {
+        width: 30.75rem;
+    }
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

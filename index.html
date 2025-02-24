@@ -39,13 +39,15 @@
     </header>
     <!-- Start of Main -->
     <main>
+      <!-- Hero Section -->
       <section class="hero container">
         <img class="hero__img" src="/Profile.jpg" alt="Profile Picture">
-        <h2 class="hero_subtitle">😎Benedict Setiawan😎</h2>
-        <h1 class="hero_title">FULL-STACK DEVELOPER</h1>
-        <p class="hero_description">A Full-stack Developer who's always looking to learn new technologies, create fun games and build new software.</p>
+        <h2 class="hero__subtitle">😎Benedict Setiawan😎</h2>
+        <h1 class="hero__title">FULL-STACK <br> SOFTWARE DEVELOPER</h1>
+        <p class="hero__description">A <strong>Full-stack</strong> software developer who's always looking to learn new technologies, create fun games and build new software.</p>
         <!-- <a class="hero__btn btn" href="#"></a> -->
       </section>
+      <!-- About Section -->
       <section id="about" class="about container section">
         <div class="about__content">
           <h2 class="about__title">About</h2>
@@ -80,9 +82,88 @@
         </div>
         </div>
       </section>
-      <!-- TO DO PORTION -->
-      <section class="hero container section">
-        <h1 class="hero_title">WORK IN PROGRESS</h1>
+      <!-- Travels Section -->
+      <section id="travels" class="travels container section">
+        <div class="travels__content">
+          <h1 class="travels__title">My Travels</h1>
+          <p class="travels__description">
+            I love to travel! Hover over the cards below to see where I went!
+          </p>
+        </div>
+      </section>
+      <section id="travels__cards" class="travels container">
+        <!-- From Uiverse.io by ElSombrero2 --> 
+        <div class="card">
+          <div class="content">
+            <div class="back">
+              <div class="back-content">
+                <img
+                  class="travels__img"
+                  src="/niagara.jpg"
+                  data-src="/niagara.jpg"
+                  alt="Niagara Falls"
+                />
+              </div>
+            </div>
+            <div class="front">
+              <p class="front__content description">I went to the United States in January 2025! This is me at Niagara Falls' Cave of the Winds, and was one of my favourite places to visit there.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <div class="back">
+              <div class="back-content">
+                <img
+                  class="travels__img"
+                  src="/annabay.jpg"
+                  data-src="/annabay.jpg"
+                  alt="Anna Bay"
+                />
+              </div>
+            </div>
+            <div class="front">
+              <p class="front__content description">Last year, I drove up to Newcastle with my cousins to see the beautiful Anna Bay. Having grown up in Singapore, I found it amazing how much there is to see outside of the city in Australia!</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <div class="back">
+              <div class="back-content">
+                <img
+                  class="travels__img"
+                  src="/indo.jpg"
+                  data-src="/indo.jpg"
+                  alt="Indo Food"
+                />
+              </div>
+            </div>
+            <div class="front">
+              <p class="front__content description">My home away from home, my extended family mainly came from and lives in Indonesia. My favourite part of Indonesia is most definitely the food...</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <div class="back">
+              <div class="back-content">
+                <img
+                  class="travels__img"
+                  src="/suntec.jpg"
+                  data-src="/suntec.jpg"
+                  alt="Suntec City"
+                />
+              </div>
+            </div>
+            <div class="front">
+              <p class="front__content description">Although it's hot all the time, Singapore definitely earns its fair share of coolness. Growing up in Singapore was like living next to all your friends all at the same time. For such a small city, you still get to explore and find new things frequently.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer container section">
+        <h3 class="footer__title">~ Benedict Setiawan</h3>
       </section>
     </main>
     <script type="module" src="./src/main.js"></script>
